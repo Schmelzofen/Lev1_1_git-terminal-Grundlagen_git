@@ -18,10 +18,21 @@ h1{
 }
 
 img{
-    padding: 1% 0 0 5%;
+    padding: 1% 0 0 4%;
 }
 
-img:hover{
-    background: url(https://source.unsplash.com/400x400/) center/cover no-repeat;
-    visibility: hidden;
+img:nth-of-type(1):hover{
+    filter:blur(10px)
 }
+
+img:nth-of-type(2):hover{
+    filter:sepia(1);
+}
+
+img:nth-of-type(3):hover{
+    filter:grayscale(1);
+}
+
+/* img:nth-of-type(2){
+    padding-left: 5%;
+} */
