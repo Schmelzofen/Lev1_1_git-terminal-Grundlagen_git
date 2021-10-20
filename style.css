@@ -36,3 +36,7 @@ img:nth-of-type(3):hover{
 /* img:nth-of-type(2){
     padding-left: 5%;
 } */
+
+.foooter{
+    text-align: center;
+}
