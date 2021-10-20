@@ -23,4 +23,5 @@ img{
 
 img:hover{
     background: url(https://source.unsplash.com/400x400/) center/cover no-repeat;
+    visibility: hidden;
 }
